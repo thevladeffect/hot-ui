@@ -1,0 +1,16 @@
+{
+  "name": "hot-server",
+  "version": "1.0.0",
+  "description": "Serving some fake data and pretending it's a CDN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vlad Vidac",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
